@@ -8,58 +8,36 @@
     ],
     "dataSamples": [
         { 
-            "title": "Brisbane", 
-            "tripsUrl": "data/brisbane/trips.json",
-            "geoJsonUrl": "data/brisbane/geojson-stops.json",
-            "nodeListUrl": "data/brisbane/stops-list.json",
+            "title": "trains_simp", 
+            "tripsUrl": "data/trains_simp/trips.json",
+            "geoJsonUrl": "data/trains_simp/stations.geojson",
+            "nodeListUrl": "data/trains_simp/station_list.json",
             "initialPartialViewState": {
-                "latitude": -27.47,
-                "longitude": 153.05,
-                "zoom": 11
+                "latitude": 34.22,
+                "longitude": 117.22,
+                "zoom": 5.2
             }
         },
         { 
-            "title": "Cairns", 
-            "tripsUrl": "data/cairns/trips.json",
-            "geoJsonUrl": "data/cairns/geojson-stops.json",
-            "nodeListUrl": "data/cairns/stops-list.json",
+            "title": "trains_minute", 
+            "tripsUrl": "data/trains_minute/trips.json",
+            "geoJsonUrl": "data/trains_minute/stations.geojson",
+            "nodeListUrl": "data/trains_minute/station_list.json",
             "initialPartialViewState": {
-                "latitude": -16.940,
-                "longitude": 145.750,
-                "zoom": 12
-            }
-        },
-        { 
-            "title": "Gold Coast", 
-            "tripsUrl": "data/gold-coast/trips.json",
-            "geoJsonUrl": "data/gold-coast/geojson-stops.json",
-            "nodeListUrl": "data/gold-coast/stops-list.json",
-            "initialPartialViewState": {
-                "latitude": -27.999,
-                "longitude": 153.410,
-                "zoom": 11
-            }
-        },
-        { 
-            "title": "Sunshine Coast", 
-            "tripsUrl": "data/sunshine-coast/trips.json",
-            "geoJsonUrl": "data/sunshine-coast/geojson-stops.json",
-            "nodeListUrl": "data/sunshine-coast/stops-list.json",
-            "initialPartialViewState": {
-                "latitude": -26.67,
-                "longitude": 153.06,
-                "zoom": 11
+                "latitude": 31.97,
+                "longitude": 118.79,
+                "zoom": 8
             }
         }
     ],
     "highlightColor": [253, 128, 93],
     "initialLoopTimeMinutes": 1,
-    "initialTrailLength": 200,
+    "initialTrailLength": 1000,
     "initialViewState": {
-        "latitude": -27.44,
-        "longitude": 153.05,
-        "zoom": 11,
-        "pitch": 45,
+        "latitude": 34.22,
+        "longitude": 117.22,
+        "zoom": 5.2,
+        "pitch": 15,
         "bearing": 0,
         "padding": {
             "top": 0,
@@ -68,8 +46,8 @@
             "right": 0
         }
     },
-    "mapboxStyle": "mapbox://styles/mapbox/dark-v10",
+    "mapboxStyle": "http://api.atlasdata.cn/maps/view/dark",
     "nodeLabel": "Stop",
     "nodeLabelPlural": "Stops",
-    "title": "Bus & Ferry Trips"
+    "title": "Train Trips"
 }

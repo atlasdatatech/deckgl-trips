@@ -83,9 +83,9 @@ const DeckGLOverlay = (props: DeckglOverlayProps) => {
     if (props.highlightedNodes.length > 0
       && node.properties?.name
       && props.highlightedNodes.find((hn: string) => node.properties?.name.toLowerCase() === hn.toLowerCase()) != null) {
-        return 0.8;
+        return 7;
     }
-    return 0.4;
+    return 3;
   };
 
   let layers = [];
@@ -139,7 +139,7 @@ const DeckGLOverlay = (props: DeckglOverlayProps) => {
             const c1 = 1.70158;
             const c2 = c1 * 1.525;
             
-            return x < 0.5
+            return x < 5
               ? (Math.pow(2 * x, 2) * ((c2 + 1) * 2 * x - c2)) / 2
               : (Math.pow(2 * x - 2, 2) * ((c2 + 1) * (x * 2 - 2) + c2) + 2) / 2;
           }

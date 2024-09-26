@@ -9,12 +9,12 @@ export const DEFAULT_APP_SETTINGS: AppSettings = {
     dataSamples: [],
     highlightColor: [255, 109, 245], // pink
     initialLoopTimeMinutes: 1,
-    initialTrailLength: 100,
+    initialTrailLength: 1000,
     initialViewState: {
-        latitude: -27.44,
-        longitude: 153.05,
-        zoom: 11,
-        pitch: 45,
+        latitude: 33.456,
+        longitude: 117.05,
+        zoom: 6,
+        pitch: 15,
         bearing: 0,
         padding: {
             top: 0,
@@ -24,7 +24,7 @@ export const DEFAULT_APP_SETTINGS: AppSettings = {
         }
     },
     maxZoom: 20,
-    mapboxStyle: "mapbox://styles/mapbox/dark-v10",
+    mapboxStyle: "http://api.atlasdata.cn/maps/view/dark",
     nodeLabel: "Node",
     nodeLabelPlural: 'Nodes',
     title: "Trips"

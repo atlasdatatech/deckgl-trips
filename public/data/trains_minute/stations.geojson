@@ -1,0 +1,145 @@
+{
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    118.792201,
+                    32.089066
+                ]
+            },
+            "properties": {
+                "name": "南京",
+                "stopId": "南京"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    118.793179,
+                    31.970655
+                ]
+            },
+            "properties": {
+                "name": "南京南",
+                "stopId": "南京南"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.451141,
+                    31.251512
+                ]
+            },
+            "properties": {
+                "name": "上海",
+                "stopId": "上海"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.316167,
+                    31.195977
+                ]
+            },
+            "properties": {
+                "name": "上海虹桥",
+                "stopId": "上海虹桥"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.178332,
+                    30.245978
+                ]
+            },
+            "properties": {
+                "name": "杭州",
+                "stopId": "杭州"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.20816,
+                    30.293522
+                ]
+            },
+            "properties": {
+                "name": "杭州东",
+                "stopId": "杭州东"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    117.311922,
+                    31.88791
+                ]
+            },
+            "properties": {
+                "name": "合肥",
+                "stopId": "合肥"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    117.28488,
+                    31.800237
+                ]
+            },
+            "properties": {
+                "name": "合肥南",
+                "stopId": "合肥南"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.606691,
+                    31.331829
+                ]
+            },
+            "properties": {
+                "name": "苏州",
+                "stopId": "苏州"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.638971,
+                    31.423523
+                ]
+            },
+            "properties": {
+                "name": "苏州北",
+                "stopId": "苏州北"
+            }
+        }
+    ],
+    "type": "FeatureCollection"
+}
