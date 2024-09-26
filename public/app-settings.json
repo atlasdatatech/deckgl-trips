@@ -9,7 +9,7 @@
     "dataSamples": [
         { 
             "title": "trains_simp", 
-            "tripsUrl": "data/trains_simp/trips_simp.json",
+            "tripsUrl": "data/trains_simp/trips.json",
             "geoJsonUrl": "data/trains_simp/stations.geojson",
             "nodeListUrl": "data/trains_simp/station_list.json",
             "initialPartialViewState": {
