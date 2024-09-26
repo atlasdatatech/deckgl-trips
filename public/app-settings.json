@@ -9,7 +9,7 @@
     "dataSamples": [
         { 
             "title": "trains_simp", 
-            "tripsUrl": "data/trains_simp/trips.json",
+            "tripsUrl": "data/trains_simp/trips_simp.json",
             "geoJsonUrl": "data/trains_simp/stations.geojson",
             "nodeListUrl": "data/trains_simp/station_list.json",
             "initialPartialViewState": {
@@ -20,7 +20,7 @@
         },
         { 
             "title": "trains_minute", 
-            "tripsUrl": "data/trains_minute/trips.json",
+            "tripsUrl": "data/trains_minute/trips_minute.json",
             "geoJsonUrl": "data/trains_minute/stations.geojson",
             "nodeListUrl": "data/trains_minute/station_list.json",
             "initialPartialViewState": {
