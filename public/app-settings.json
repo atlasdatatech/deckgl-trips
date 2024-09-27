@@ -8,14 +8,14 @@
     ],
     "dataSamples": [
         { 
-            "title": "trains_simp", 
-            "tripsUrl": "data/trains_simp/trips.json",
-            "geoJsonUrl": "data/trains_simp/stations.geojson",
-            "nodeListUrl": "data/trains_simp/station_list.json",
+            "title": "trains_sec", 
+            "tripsUrl": "data/trains_sec/trips_sec.json",
+            "geoJsonUrl": "data/trains_sec/stations.geojson",
+            "nodeListUrl": "data/trains_sec/station_list.json",
             "initialPartialViewState": {
-                "latitude": 34.22,
-                "longitude": 117.22,
-                "zoom": 5.2
+                "latitude": 31.97,
+                "longitude": 118.79,
+                "zoom": 9
             }
         },
         { 
@@ -28,15 +28,26 @@
                 "longitude": 118.79,
                 "zoom": 8
             }
+        },
+        { 
+            "title": "trains_simp", 
+            "tripsUrl": "data/trains_simp/trips_simp.json",
+            "geoJsonUrl": "data/trains_simp/stations.geojson",
+            "nodeListUrl": "data/trains_simp/station_list.json",
+            "initialPartialViewState": {
+                "latitude": 31.97,
+                "longitude": 118.79,
+                "zoom": 7
+            }
         }
     ],
     "highlightColor": [253, 128, 93],
     "initialLoopTimeMinutes": 1,
     "initialTrailLength": 1000,
     "initialViewState": {
-        "latitude": 34.22,
-        "longitude": 117.22,
-        "zoom": 5.2,
+        "latitude": 31.97,
+        "longitude": 118.79,
+        "zoom": 9,
         "pitch": 15,
         "bearing": 0,
         "padding": {
@@ -46,8 +57,8 @@
             "right": 0
         }
     },
-    "mapboxStyle": "http://api.atlasdata.cn/maps/view/dark",
-    "nodeLabel": "Stop",
-    "nodeLabelPlural": "Stops",
+    "mapboxStyle": "http://api.atlasdata.cn/maps/view/cjVUAf6Vg",
+    "nodeLabel": "Station",
+    "nodeLabelPlural": "Stations",
     "title": "Train Trips"
 }

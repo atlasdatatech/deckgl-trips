@@ -11,9 +11,9 @@ export const DEFAULT_APP_SETTINGS: AppSettings = {
     initialLoopTimeMinutes: 1,
     initialTrailLength: 1000,
     initialViewState: {
-        latitude: 33.456,
-        longitude: 117.05,
-        zoom: 6,
+        latitude: 31.97,
+        longitude: 118.79,
+        zoom: 9,
         pitch: 15,
         bearing: 0,
         padding: {
@@ -24,7 +24,7 @@ export const DEFAULT_APP_SETTINGS: AppSettings = {
         }
     },
     maxZoom: 20,
-    mapboxStyle: "http://api.atlasdata.cn/maps/view/dark",
+    mapboxStyle: "http://api.atlasdata.cn/maps/view/cjVUAf6Vg",
     nodeLabel: "Node",
     nodeLabelPlural: 'Nodes',
     title: "Trips"
